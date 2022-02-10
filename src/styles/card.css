@@ -1,0 +1,36 @@
+.card {
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__uid {
+    color: #FFFFFF;
+    margin: 0 auto 5px;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.card__uid:last-of-type {
+    margin-bottom: 15px;
+}
+
+.card__button {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #202020;
+    margin: 0 auto;
+    width: 200px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 40px;
+
+}
